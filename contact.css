@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@300;400;500;600&family=Sigmar&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.maincry {
+    position: relative;
+    color: aliceblue;
+    margin: 0.5%;
+    left: 2%;
+    font-size: 15px;    
+}
+
+.title {
+  color: aliceblue;
+  position: relative;
+  font-size: 30px;
+  margin: 12.6%;
+  left: 15%;
+}
+
+.secondtitle {
+  color: #ffffffb7;
+  font-size: 15px;
+  position: absolute;
+  margin: 16.4%;
+  right: 29%;
+}
+
+.discord {
+  color: rgb(248, 248, 248);
+  font-size: 15px;
+  left: -34.6%;
+  position: relative;
+  margin: 260px;
+}
+
+.github {
+  color: rgb(248, 248, 248);
+  font-size: 15px;
+  left: -38.6%;
+  position: relative;
+  margin: 260px;
+}
+
+
+.crycontactbox {
+  width: 200px;
+  height: 200px;
+  right: 20%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 100% 0% 100% 0% / 48% 64% 36% 52% ;
+  margin: 200px;
+}
+
+.crycontactboxgh {
+  width: 200px;
+  height: 208px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 20%;
+  border-radius: 0% 100% 0% 100% / 48% 64% 36% 52% ;
+  margin: 200px;
+}
+
+
+.btn {
+  left: 2530%;
+  bottom: -5%;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  position: relative;
+  z-index: 3;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn::before {
+  content: "";
+  border: 3px solid white;
+  position: absolute;
+  left: -25px;
+  bottom: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn:hover::before {
+  left: -25px;
+  bottom: -17.5px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  z-index: -1;
+}
+
+.btn:hover {
+  color: #282828;
+}
+
+.btn3 {
+  left: 2900%;
+  bottom: -5%;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 17px;
+  position: relative;
+  z-index: 3;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn3::before {
+  content: "";
+  border: 3px solid white;
+  position: absolute;
+  left: -25px;
+  bottom: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn3:hover::before {
+  left: -25px;
+  bottom: -17.5px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  z-index: -1;
+}
+
+.btn3:hover {
+  color: #282828;
+}
+
+ 
